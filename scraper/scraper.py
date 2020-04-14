@@ -58,7 +58,7 @@ def generate_sheet(target_url_list):
             col += 1 
     
 
-
+if __name__ == '__main__':
 #Driver Code
 
 workbook = xlsxwriter.Workbook('Airlinesdata.xlsx')
